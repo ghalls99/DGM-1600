@@ -111,6 +111,10 @@
      font-size: 2vw;
  }
  
+ #profile-link {
+     font-size: 2vh;
+ }
+ 
  footer {
      text-align: center;
      border-top-color: grey;
