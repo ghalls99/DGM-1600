@@ -1,90 +1,84 @@
-    @media (max-width: 576px) {
-        .container {
-            width: 100%;
-            margin-left: 300px;
-            padding-right: 25px;
-        }
-    }
-    
-    @media (min-width: 375px) {
-        body {
-            display: flex;
-            justify-content: center;
-        }
-        input[type=text] {
-            font-size: 1.5vw;
-        }
-    }
-    
-    body {
-        background-color: #79ba8b;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-    }
-    
+body {
+    background-color: #79ba8b;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    background-color: #91908d;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 50px;
+    box-shadow: 0px 10px black;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border-color: black;
+}
+
+.error {
+    text-align: center;
+    background-color: #db6965;
+    color: white;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+#getResults {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 8px;
+    background-color: white;
+    border-color: black;
+    margin-top: 2.5vh;
+    color: black;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 250px;
+}
+
+.results {
+    background-color: #91908d;
+    width: 100%;
+}
+
+td {
+    text-align: left;
+    padding: 5px;
+}
+
+.age {
+    font-size: 4em;
+}
+
+@media only screen and (max-width: 375px) {
     .container {
-        background-color: #91908d;
-        margin-left: 20vw;
-        margin-right: 20vw;
-        margin-top: 50px;
-        box-shadow: 0px 10px black;
-        padding: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
     }
-    
-    .hidden {
-        display: none;
-    }
-    
     input[type=text] {
-        width: 25%;
-        padding: 12px 20px;
-        border-radius: 8px;
-        border-color: black;
+        width: 75%;
     }
-    
-    .error {
-        text-align: center;
-        background-color: #db6965;
-        color: white;
-        padding-top: 2.5vh;
-        padding-bottom: 2.5vh;
-        padding-left: 5vh;
-        padding-right: 5vh;
-        border-radius: 8px;
-        margin-top: 15px;
-    }
-    
-    #getResults {
-        padding-top: 2.5vh;
-        padding-bottom: 2.5vh;
-        padding-left: 5vh;
-        padding-right: 5vh;
-        border-radius: 8px;
-        background-color: white;
-        border-color: black;
-        margin-top: 2.5vh;
-        color: black;
-    }
-    
-    table {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        min-width: 250px;
-    }
-    
-    .results {
-        background-color: #91908d;
-        width: 100%;
-    }
-    
-    td {
-        text-align: left;
-        padding: 5px;
-    }
-    
-    .age {
-        font-size: 4em;
-    }
+}
