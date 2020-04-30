@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="agify.css" rel="stylesheet">
+    <title>Age Guesser</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Interesting information about your name!</h1>
+        </header>
+        <form class="name-input-section">
+            <input type="text" placeholder="Enter your first name only" id="myName"><br>
+            <button id="getResults">Get Results</button>
+        </form>
+
+        <div class="error hidden"></div>
+
+        <div class="results hidden">
+            <h2>Results for the name "<span class="name"></span>"</h2>
+            <div class="basis">Based on your name, we predict your nationality based on the following probabilities:</div>
+            <div class>
+                <table class="nationality-data">
+                    <tr>
+                        <th>Country</th>
+                        <th>Probability</th>
+                    </tr>
+                </table>
+            </div>
+            <div>Based on your name, we predict your age to be:</div>
+            <div class="age"></div>
+        </div>
+    </div>
+
+    <script src="agify.js" type="module"></script>
+
+</body>
+
+</html>
