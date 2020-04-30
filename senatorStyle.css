@@ -1,4 +1,5 @@
 body {
     background-image: url(SealOfThePresident.png);
     background-position: center;
+    background-repeat: no-repeat;
 }
