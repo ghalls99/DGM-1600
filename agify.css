@@ -1,3 +1,21 @@
+    @media (max-width: 576px) {
+        .container {
+            width: 100%;
+            margin-left: 300px;
+            padding-right: 25px;
+        }
+    }
+    
+    @media (min-width: 375px) {
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        input[type=text] {
+            font-size: 1.5vw;
+        }
+    }
+    
     body {
         background-color: #79ba8b;
         text-align: center;
